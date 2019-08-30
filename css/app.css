@@ -1,0 +1,77 @@
+/* Mijn eerste applicatie pagine */
+
+/*----------------------
+------ Structure -------
+----------------------*/
+body {
+    background: url("../images/banner.jpg") repeat-x;
+}
+
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/*----------------------
+------ Header ----------
+----------------------*/
+
+#header {
+    background-color: #ee322b;
+    height: 119px;
+}
+
+#logo img {
+    margin: 15px 0 0 0;
+}
+
+#logo {
+    float: left;
+}
+
+#nav {
+    float: right;
+	margin: 55px 0 0 0;
+}
+
+#nav ul li{
+    float: left;
+    list-style: none;
+	border-left: 1px solid #fff;
+}
+
+#nav ul li a {
+    display: block;
+    width: 100px;
+    height: 2em;
+    line-height: 2em;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+#banner {
+    height:100 px;
+}
+
+#banner img {
+    margin: 0px 5px 10px 10px;
+}
+
+table.table {
+	margin: 140px 0px 0px 0px
+}
+
+table.tablepersonen {
+	border: 1px solid #900;	
+}
+
+input.knop1 {
+	float:right;
+	width:150px;
+	height:150px;
+}
+
+#footer img{
+	height 325 px;
+}
